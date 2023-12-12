@@ -27,25 +27,23 @@
                         <p class="col-md-8 fs-4">
                             Welcome to our hotel booking page,enjoy your stay with us.
                         </p>
-                        <p>
-                            You have <span x-text="loyality_points"></span> loyality points
-                        </p>
+                       
                     </div>
                 </div>
 
 
                 <ul class="nav nav-tabs">
                     <li class="nav-item" x-bind:class="tab == 1 ? 'active' : ''" x-on:click="tab = 1">
-                        <a class="nav-link" href="#">Booking</a>
+                        <a class="nav-link" href="#" ><i>Booking</i></a>
                     </li>
                     <li class="nav-item" x-bind:class="tab == 2 ? 'active' : ''" x-on:click="tab = 2">
-                        <a class="nav-link" href="#">Checkout</a>
+                        <a class="nav-link" href="#"><i>Checkout</i></a>
                     </li>
                     <li class="nav-item" x-bind:class="tab == 3 ? 'active' : ''" x-on:click="tab = 3">
-                        <a class="nav-link" href="#">Favorites</a>
+                        <a class="nav-link" href="#"><i>Favorites</i></a>
                     </li>
                     <li class="nav-item" x-bind:class="tab == 4 ? 'active' : ''" x-on:click="tab = 4">
-                        <a class="nav-link" href="#">Past Bookings</a>
+                        <a class="nav-link" href="#"><i>Past Bookings</i></a>
                     </li>
                 </ul>
 
@@ -205,6 +203,7 @@
                                 <button type="submit" class="btn btn-success">
                                     Checkout
                                 </button>
+                                
                             </div>
                     </div>
                     </form>
@@ -413,6 +412,9 @@
                                     </tr>
                                 </template>
                             </tbody>
+                            <p style="color: red; font-size: x-large;">
+                               <i> You have <span x-text="loyality_points"></span> loyality points
+                            </p>
                     </div>
                 </div>
             </div>
