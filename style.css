@@ -1,0 +1,30 @@
+.mainDiv {
+    background-color: aqua;
+}
+
+.index_bg {
+    background-image: url(../Hotel/Resources/image/pc1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.Booking_bg {
+    background-image: url(../Hotel/Resources/image/pc3.jpeg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.book_now_bg {
+    background-color: rgba(0, 0, 0, 0.703);
+    width: 100%;
+}
+
+.bg_blur {
+    background-color: rgba(0, 0, 0, 0.649);
+}
